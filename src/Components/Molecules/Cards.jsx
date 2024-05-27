@@ -1,8 +1,27 @@
 import { Button } from "../Atoms/Button.jsx";
 import { Link } from "react-router-dom";
+import { deleteDoc, doc } from "firebase/firestore";
+import { db } from "../../services/dbConnection.js";
 import { MdDeleteForever } from "react-icons/md";
+import Swal from "sweetalert2";
 
 export function Cards({ survey, setSurvey, title, image, description, id }) {
+
+    const deleteSurvey = async () => {
+        try {
+            const newSurvey = survey.filter((e) => e.id !== id);
+            setSurvey(newSurvey);
+
+            const refdoc = doc(db, "surveys", id);
+            await deleteDoc(refdoc);
+
+            Swal.fire("Deleted!", "Your survey has been deleted.", "success");
+        } catch (error) {
+            console.error("Error deleting survey: ", error);
+            Swal.fire("Error", "There was an issue deleting the survey.", "error");
+        }
+    };
+
     return (
         <div
             id="card--container"
