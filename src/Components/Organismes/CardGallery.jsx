@@ -1,8 +1,28 @@
 import { Cards } from "../Molecules/Cards.jsx";
-import React from "react";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../../services/dbConnection.js";
+import React, { useContext, useEffect, useState } from "react";
 import { Loader } from "../Atoms/Loader.jsx";
+import Data_Context from "../../Context/dataContext.js";
 
 export function CardGallery() {
+
+    const {isLoading,survey,setSurvey,setIsloading} = useContext(Data_Context);
+
+    const col = collection(db, "surveys");
+    useEffect(() => {
+        const getSurvey = async () => {
+            try {
+                const data = await getDocs(col);
+                setSurvey(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+            } catch (error) {
+                console.error("Error fetching survey:", error);
+            } finally {
+                setIsloading(false);
+            }
+        };
+        getSurvey();
+    }, []);
     return (
         <div
             id="Card--Gallery"
