@@ -1,5 +1,5 @@
 import SurveyInformations from "../Molecules/SurveyInformations";
-import QuestionLists from "../Organisms/QuestionLists";
+import QuestionLists from "../Organismes/QuestionLists.jsx";
 
 const CreateSurvey = () => {
  

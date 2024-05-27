@@ -1,4 +1,4 @@
-import Information from "../Organisms/Informations"
+import Information from "../Organismes/Informations.jsx"
 import { Button } from "../Atoms/Button.jsx";
 
 

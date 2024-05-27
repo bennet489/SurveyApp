@@ -1,8 +1,8 @@
 import "./Style/index.css";
-import NavBar from "./Components/Organisms/NavBar.jsx";
+import NavBar from "./Components/Organismes/NavBar.jsx";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import CreateSurvey from "./Components/Pages/CreateSurvey.jsx";
-import { Footer } from "./Components/Organisms/Footer.jsx";
+import { Footer } from "./Components/Organismes/Footer";
 import { Home } from "./Components/Pages/Home.jsx";
 import Response from "./Components/Pages/Response.jsx";
 import { Contact } from "./Components/Pages/Contact.jsx";

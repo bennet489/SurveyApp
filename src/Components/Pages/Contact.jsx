@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { ContactCard } from "../Organisms/ContactCard.jsx";
-=======
 import { ContactCard } from "../Organismes/ContactCard.jsx";
->>>>>>> refs/remotes/origin/main
 import React, {useState} from "react";
 
 export function Contact() {
@@ -12,7 +8,3 @@ export function Contact() {
         </div>
     );
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> refs/remotes/origin/main
