@@ -1,4 +1,4 @@
-import AboutImage from "/src/assets/AboutUs-images/about.png";
+import AboutImage from "/src/Assets/AboutUs-images/about.png";
 import React from "react";
 
 export function AboutWebsite() {
