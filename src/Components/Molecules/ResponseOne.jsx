@@ -31,7 +31,7 @@ export default function
                     key={index}
                     onClick={() => handleOptionSelection(option.name)}
                     className={`flex items-center mb-5 border-gray-500 border-[0.5px] p-4 rounded-lg ${
-                        selectedOption === option.name ? "border-[#6DBEC5] border-[2px] bg-[#6DBEC5]/10" : ""
+                        selectedOption === option.name ? "border-[#6DBEC5]/95 border-[2px] bg-[#6DBEC5]/10" : ""
                     }`}
                 >
                   <label className="ms-2 text-sm font-medium">{option.name}</label>
