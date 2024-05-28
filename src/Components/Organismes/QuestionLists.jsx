@@ -49,7 +49,6 @@ function QuestionLists() {
                 questions:Qestion
             }
             if ((obj.title.length === 0 )|| (obj.description.length === 0 )
-                || (obj.questions.length === 0)
         )
         {
             Swal.fire({
