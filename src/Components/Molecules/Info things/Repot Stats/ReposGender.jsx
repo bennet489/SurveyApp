@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { TbRectangleFilled } from "react-icons/tb";
 import { Loader } from "../../../Atoms/Loader";
+import React from 'react';
 
 function ReposGender({ manRepo, womanRepo }) {
     const [manPer, setManPer] = useState(null);

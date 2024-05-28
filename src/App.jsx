@@ -1,4 +1,5 @@
 import "./Style/index.css";
+import React from 'react';
 import NavBar from "./Components/Organismes/NavBar.jsx";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import CreateSurvey from "./Components/Pages/CreateSurvey.jsx";
@@ -24,7 +25,7 @@ function App() {
                             <Home />
                         </ProviderContext>
                     }
-                ></Route>
+                />
                 <Route
                     path="/Contact"
                     element={
@@ -32,7 +33,7 @@ function App() {
                             <Contact />
                         </ProviderContext>
                     }
-                ></Route>
+                />
                 <Route
                     path="/Response/:id"
                     element={
@@ -40,8 +41,7 @@ function App() {
                             <Response />
                         </ProviderContext>
                     }
-                ></Route>
-
+                />
                 <Route
                     path="/createSurvey"
                     element={
@@ -49,7 +49,7 @@ function App() {
                             <CreateSurvey />
                         </ProviderContext>
                     }
-                ></Route>
+                />
                 <Route
                     path="/reportPage/:id"
                     element={
@@ -57,8 +57,8 @@ function App() {
                             <ReportPage />
                         </ProviderContext>
                     }
-                ></Route>
-                <Route path="/ReportPage" element={<ReportPage />}></Route>
+                />
+                <Route path="/ReportPage" element={<ReportPage />} />
                 <Route path="/AboutUs" element={<AboutUs />} />
             </Routes>
             <Footer />

@@ -1,4 +1,5 @@
 import Chart from 'chart.js/auto';
+import React from 'react';
 import { useEffect, useRef } from 'react';
 import {TbRectangleFilled} from "react-icons/tb";
 

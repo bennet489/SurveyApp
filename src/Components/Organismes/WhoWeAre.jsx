@@ -47,7 +47,7 @@ export function WhoWeAre() {
                                 src={member.image}
                                 alt=""
                             />
-                            <div className="font-medium dark:text-white mt-[50px]">
+                            <div className="font-medium mt-[50px]">
                                 <div className="text-black-500 font-semibold text-2xl">
                                     {member.name}
                                 </div>

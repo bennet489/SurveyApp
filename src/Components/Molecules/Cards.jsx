@@ -4,6 +4,7 @@ import { deleteDoc, doc } from "firebase/firestore";
 import { db } from "../../services/dbConnection.js";
 import { MdDeleteForever } from "react-icons/md";
 import Swal from "sweetalert2";
+import React from 'react';
 
 export function Cards({ survey, setSurvey, title, image, description, id }) {
 

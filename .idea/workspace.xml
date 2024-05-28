@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74bfb228-84d1-4def-a423-8d02bead66d5" name="Changes" comment="reusable components" />
+    <list default="true" id="74bfb228-84d1-4def-a423-8d02bead66d5" name="Changes" comment="reusable components">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Atoms/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Atoms/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Atoms/CheckBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Atoms/CheckBox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Atoms/ImageUpload.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Atoms/ImageUpload.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Atoms/Label.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Atoms/Label.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Atoms/Loader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Atoms/Loader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Molecules/Cards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Molecules/Cards.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Molecules/Info things/Repot Stats/ReposGender.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Molecules/Info things/Repot Stats/ReposGender.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Molecules/Info things/Repot Stats/RepsAge.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Molecules/Info things/Repot Stats/RepsAge.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/Informations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/Informations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/Reports.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/Reports.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/ResponsesCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/ResponsesCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/WhoWeAre.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/WhoWeAre.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/AboutUs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/CreateSurvey.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/CreateSurvey.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/ReportPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/ReportPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/UserInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/UserInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context/ProviderContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/ProviderContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

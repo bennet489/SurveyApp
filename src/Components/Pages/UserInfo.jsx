@@ -1,5 +1,6 @@
 import Information from "../Organismes/Informations.jsx"
 import { Button } from "../Atoms/Button.jsx";
+import React from 'react';
 
 
 function UserInfo(){

@@ -1,4 +1,5 @@
 import ResponseOne from "../Molecules/ResponseOne";
+import React from 'react';
 
 export default function ResponsesCard({ data, handleOptionChange }) {
   console.log("Response Card recieve this documentData.questions:", data);

@@ -1,7 +1,7 @@
 import SurveyLogo from "/src/Assets/NavBar-images/SurveyLogo.png";
 import { Button } from "../Atoms/Button.jsx";
 import {Link, useLocation} from "react-router-dom";
-
+import React from 'react';
 export default function NavBar() {
     const location = useLocation();
     return (

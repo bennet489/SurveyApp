@@ -1,4 +1,4 @@
-
+import React from 'react';
 export function Footer() {
     return (
         <footer className=" left-0 bottom-0 absolute right-0 w-full bg-[#6DBEC5] shadow">

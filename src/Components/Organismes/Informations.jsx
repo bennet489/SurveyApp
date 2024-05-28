@@ -1,3 +1,4 @@
+import React from 'react';
 import InfoGender from "../Molecules/Info things/InfoGender";
 import InfoAge from "../Molecules/Info things/InfoAge";
 import InfoCountry from "../Molecules/Info things/InfoCountry";
