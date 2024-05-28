@@ -1,16 +1,15 @@
-import { initializeApp } from "firebase/app";
+import { initializeApp, getApp, getApps } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA5c6QDQLwWyvSMH1Q_jMZGxIHLGErKRAQ",
-  authDomain: "survey-app-47833.firebaseapp.com",
-  projectId: "survey-app-47833",
-  storageBucket: "survey-app-47833.appspot.com",
-  messagingSenderId: "985685536713",
-  appId: "1:985685536713:web:44cc70af6d060d4f530218",
-  measurementId: "G-QTFP2K22TH",
-};
+  apiKey: import.meta.env.FIREBASE_API_KEY,
+  authDomain: import.meta.env.FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.FIREBASE_APP_ID,
+  measurementId: import.meta.env.FIREBASE_MEASUREMENT_ID,
+  };
 
-
-initializeApp(firebaseConfig);
-export const db = getFirestore();
+const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
+export const db = getFirestore(app);
