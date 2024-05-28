@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74bfb228-84d1-4def-a423-8d02bead66d5" name="Changes" comment="reusable components">
+    <list default="true" id="74bfb228-84d1-4def-a423-8d02bead66d5" name="Changes" comment="Fixing Bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Atoms/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Atoms/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Atoms/CheckBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Atoms/CheckBox.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Atoms/ImageUpload.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Atoms/ImageUpload.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Atoms/Label.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Atoms/Label.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Atoms/Loader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Atoms/Loader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Molecules/Cards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Molecules/Cards.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Molecules/Info things/Repot Stats/ReposGender.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Molecules/Info things/Repot Stats/ReposGender.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Molecules/Info things/Repot Stats/RepsAge.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Molecules/Info things/Repot Stats/RepsAge.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/Informations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/Informations.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/Reports.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/Reports.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/ResponsesCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/ResponsesCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/WhoWeAre.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/WhoWeAre.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/AboutUs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/CreateSurvey.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/CreateSurvey.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/ReportPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/ReportPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/UserInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/UserInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Context/ProviderContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/ProviderContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/QuestionLists.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/QuestionLists.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,46 +106,7 @@
       <workItem from="1716474943710" duration="3574000" />
       <workItem from="1716643745611" duration="7560000" />
       <workItem from="1716844751585" duration="385000" />
-    </task>
-    <task id="LOCAL-00012" summary="Solving Merge Conflicts">
-      <option name="closed" value="true" />
-      <created>1715265944704</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1715265944704</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Solving Merge Conflicts">
-      <option name="closed" value="true" />
-      <created>1715266395915</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1715266395915</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Updates">
-      <option name="closed" value="true" />
-      <created>1715266631876</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1715266631876</updated>
-    </task>
-    <task id="LOCAL-00015" summary="fixed navBar">
-      <option name="closed" value="true" />
-      <created>1715266874105</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1715266874105</updated>
-    </task>
-    <task id="LOCAL-00016" summary="fixed navBar">
-      <option name="closed" value="true" />
-      <created>1715266943224</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1715266943224</updated>
+      <workItem from="1716929371164" duration="1153000" />
     </task>
     <task id="LOCAL-00017" summary="Add Footer Design">
       <option name="closed" value="true" />
@@ -520,7 +460,47 @@
       <option name="project" value="LOCAL" />
       <updated>1716729723444</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Fixing DarkMode">
+      <option name="closed" value="true" />
+      <created>1716891159581</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1716891159582</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Fixing The Import Error">
+      <option name="closed" value="true" />
+      <created>1716891176422</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1716891176422</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Adjusting Response Design">
+      <option name="closed" value="true" />
+      <created>1716894936447</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1716894936447</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Adjusting Response Design">
+      <option name="closed" value="true" />
+      <created>1716895555320</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1716895555320</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Fixing Bug">
+      <option name="closed" value="true" />
+      <created>1716911846215</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1716911846216</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,10 +519,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Designing charts" />
-    <MESSAGE value="fixing Color" />
-    <MESSAGE value="Designing Create Survey" />
-    <MESSAGE value="Webkit elipsis of the Paragraphs" />
     <MESSAGE value="Alert Edit" />
     <MESSAGE value="User Information" />
     <MESSAGE value="User Information State" />
@@ -564,6 +540,10 @@
     <MESSAGE value="a card Gallery where we map over the card component" />
     <MESSAGE value="Home component that has the cardGallery component" />
     <MESSAGE value="reusable components" />
-    <option name="LAST_COMMIT_MESSAGE" value="reusable components" />
+    <MESSAGE value="Fixing DarkMode" />
+    <MESSAGE value="Fixing The Import Error" />
+    <MESSAGE value="Adjusting Response Design" />
+    <MESSAGE value="Fixing Bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing Bug" />
   </component>
 </project>
