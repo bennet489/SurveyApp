@@ -26,12 +26,10 @@ function QuestionLists() {
         if (!Array.isArray(questions)) {
             throw new Error("Questions must be an array");
         }
-        return questions.map(question => {
-            return {
-                text: question?.text || "",
-                options: question?.options || []
-            };
-        });
+        return questions.map(question => ({
+            text: question?.text || "",
+            options: question?.options || []
+        }));
     };
 
     const SendData = async (e) => {
@@ -85,10 +83,13 @@ function QuestionLists() {
             Swal.fire({
                 position: "top-center",
                 icon: "success",
-                title: "Your Survey saved successfully"
+                title: "Your Survey saved successfully",
+                showConfirmButton: false,
+                timer: 1500
+            }).then(() => {
+                setTitleSurvey("");
+                setDescriptionSurvey("");
             });
-            setTitleSurvey("");
-            setDescriptionSurvey("");
         } catch (error) {
             Swal.fire({
                 title: "Error saving survey",
