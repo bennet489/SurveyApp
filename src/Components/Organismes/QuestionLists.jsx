@@ -20,6 +20,7 @@ function QuestionLists() {
         setTitleSurvey,
         DescriptionSurvey,
         setDescriptionSurvey,
+        setImageSrc,
     } = useContext(Data_Context);
 
     const validateQuestions = (questions) => {
@@ -89,6 +90,7 @@ function QuestionLists() {
             }).then(() => {
                 setTitleSurvey("");
                 setDescriptionSurvey("");
+                setImageSrc("");
             });
         } catch (error) {
             Swal.fire({

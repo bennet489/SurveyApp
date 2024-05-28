@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74bfb228-84d1-4def-a423-8d02bead66d5" name="Changes" comment="Fixing Bug">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/QuestionLists.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/QuestionLists.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="74bfb228-84d1-4def-a423-8d02bead66d5" name="Changes" comment="Handling Errors added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,23 +103,7 @@
       <workItem from="1716474943710" duration="3574000" />
       <workItem from="1716643745611" duration="7560000" />
       <workItem from="1716844751585" duration="385000" />
-      <workItem from="1716929371164" duration="1153000" />
-    </task>
-    <task id="LOCAL-00017" summary="Add Footer Design">
-      <option name="closed" value="true" />
-      <created>1715291127781</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1715291127781</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Updating Navbar">
-      <option name="closed" value="true" />
-      <created>1715291144324</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1715291144324</updated>
+      <workItem from="1716929371164" duration="1493000" />
     </task>
     <task id="LOCAL-00019" summary="Fixing Names">
       <option name="closed" value="true" />
@@ -500,7 +481,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716911846216</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Fixing Create Survey Submit">
+      <option name="closed" value="true" />
+      <created>1716937652801</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1716937652801</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Handling Errors added">
+      <option name="closed" value="true" />
+      <created>1716937958951</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1716937958951</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,8 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Alert Edit" />
-    <MESSAGE value="User Information" />
     <MESSAGE value="User Information State" />
     <MESSAGE value="update" />
     <MESSAGE value="Delete Btn" />
@@ -544,6 +539,8 @@
     <MESSAGE value="Fixing The Import Error" />
     <MESSAGE value="Adjusting Response Design" />
     <MESSAGE value="Fixing Bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing Bug" />
+    <MESSAGE value="Fixing Create Survey Submit" />
+    <MESSAGE value="Handling Errors added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling Errors added" />
   </component>
 </project>
