@@ -1,54 +1,44 @@
 import React, { useState } from "react";
 
-
-export default function ResponseOne({
-  title,
-  options,
-  handleOptionChange,
-  questions,
-}) {
-  const [optionsState, setOptionsState] = useState(options);
+export default function
+    ResponseOne({
+                  title,
+                  options,
+                  handleOptionChange,
+                  questions,
+                }) {
   const [selectedOption, setSelectedOption] = useState(null);
 
   const handleOptionSelection = (optionName) => {
-    const newOptions = optionsState.map((option) => {
-      if (optionName === option.name) {
-        return { ...option, checked: option.checked + 1 };
-      } else if (selectedOption === option.name) {
-        return { ...option, checked: option.checked - 1 };
-      } else {
-        return option;
-      }
-    });
+    const newOptions = options.map((option) => ({
+      ...option,
+      checked: option.name === optionName ? true : false,
+    }));
 
     setSelectedOption(optionName);
-    setOptionsState(newOptions);
-    console.log("handleOptionSelection newOptions", newOptions);
     handleOptionChange(questions, newOptions);
   };
 
-
-
   return (
-    <>
-      <div className="border-b-[1px] border-black/20 mb-10">
-        <h6 className="font-bold pb-5 ">
-          <span>{title}</span>
-        </h6>
-        <div className="px-6">
-          {optionsState.map((option, index) => (
-            <div key={index} className="flex items-center mb-5">
-              <input
-                type="radio"
-                name={`question-${title}`}
-                onChange={() => handleOptionSelection(option.name)}
-              />
-              <label className="ms-2 text-sm font-medium">{option.name}</label>
-            </div>
-          ))}
+      <>
+        <div className="border-b-[1px] border-black/20 mb-10">
+          <h6 className="font-bold pb-5 ">
+            <span>{title}</span>
+          </h6>
+          <div className="px-6">
+            {options.map((option, index) => (
+                <div
+                    key={index}
+                    onClick={() => handleOptionSelection(option.name)}
+                    className={`flex items-center mb-5 border-gray-500 border-[0.5px] p-4 rounded-lg ${
+                        selectedOption === option.name ? "border-[#6DBEC5] border-[2px] bg-[#6DBEC5]/10" : ""
+                    }`}
+                >
+                  <label className="ms-2 text-sm font-medium">{option.name}</label>
+                </div>
+            ))}
+          </div>
         </div>
-      </div>
-    </>
+      </>
   );
 }
-
