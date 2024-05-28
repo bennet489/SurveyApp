@@ -1,6 +1,6 @@
 import React from "react";
-import AboutRania from "../../assets/AboutUs-images/rania.jpeg";
-import AboutBennet from "../../assets/AboutUs-images/bennet.png";
+import AboutRania from "../../Assets/AboutUs-images/rania.jpeg";
+import AboutBennet from "../../Assets/AboutUs-images/bennet.png";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaSquareGithub, FaSquareXTwitter } from "react-icons/fa6";
 
