@@ -1,9 +1,6 @@
-
 import { AboutStatistic } from "../Organismes/AboutStatistic.jsx";
 import { AboutWebsite } from "../Organismes/AboutWebSite.jsx";
 import { WhoWeAre } from "../Organismes/WhoWeAre.jsx";
-
-
 import React from "react";
 
 export function AboutUs() {

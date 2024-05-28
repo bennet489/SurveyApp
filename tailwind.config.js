@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'ourGreen' : '#042B29'
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')({
+      charts: true,}),
+  ],
+
 }
