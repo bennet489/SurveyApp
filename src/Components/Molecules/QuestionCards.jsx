@@ -7,15 +7,15 @@ import Data_Context from "../../Context/dataContext";
 import {MdDeleteForever} from "react-icons/md";
 
 function QuestionCards({ deleteCard, i }) {
-  
+
   const {
     setQuestion,
     setTitleQuestionCtx,
     optionCtx,
     setOptionCtx
-    } = useContext(Data_Context);
+  } = useContext(Data_Context);
   const [titleQuestion,setTitleQuestion] = useState()
-  const [option,setOption] = useState([{}])
+  const [option,setOption] = useState( [{}])
 
   useEffect(() => {
     let id = uuidv4();
@@ -73,64 +73,63 @@ function QuestionCards({ deleteCard, i }) {
 
   };
   return (
-    <div className="custom-card my-2">
-      <div className="bg-[#5EB7BF]/40 rounded-lg pb-3">
-        <div className="px-[41px] py-5 justify-around">
-          <Input
-            value={titleQuestion}
-            SetTitle={(e) => {
-              {
-                setTitleQuestion(e.target.value)
-                setTitleQuestionCtx(e.target.value)
-              }
-            }}
-            paddigY="p-3"
-            raduis="rounded-lg"
-            w="w-[500px]"
-            placeholder="Enter your Question"
-          />
-        </div>
-
-        <div className="ml-[40px] pb-3">
-          <Button
-            addnewComponent={addOption}
-            paddingY="py-3"
-            paddingX="px-6"
-            bgColor="bg-ourGreen"
-          >
-            Add Option
-          </Button>
-          {option.map((o, index) => (
-            <div className=" flex mt-4" key={index}>
-              <Input
-                key={index}
-                value={o.name}
-                SetTitle={(e) => handleOptionChange(index, e.target.value)}
-                w="w-[310px]"
-                paddigY="py-2"
+      <div className="custom-card my-2">
+        <div className="bg-[#5EB7BF]/40 rounded-lg pb-3">
+          <div className="px-[41px] py-5 justify-around">
+            <Input
+                value={titleQuestion}
+                SetTitle={(e) => {
+                  {
+                    setTitleQuestion(e.target.value)
+                    setTitleQuestionCtx(e.target.value)
+                  }
+                }}
+                paddigY="p-3"
                 raduis="rounded-lg"
-                placeholder="Enter option"
-              />
-              <MdDeleteForever size={35} className='mt-[4px] cursor-pointer' onClick={()=>delOption(index)}/>
-            </div>
-          ))}
-        </div>
-        <div className="flex justify-between">
-          <div className="ml-[730px]">
+                w="w-[500px]"
+                placeholder="Enter your Question"
+            />
+          </div>
+
+          <div className="ml-[40px] pb-3">
             <Button
-              addnewComponent={deleteIt}
-              paddingY="py-3"
-              paddingX="px-6"
-              bgColor="bg-red-700"
+                addnewComponent={addOption}
+                paddingY="py-3"
+                paddingX="px-6"
+                bgColor="bg-ourGreen"
             >
-              Delete Question
+              Add Option
             </Button>
+            {option.map((o, index) => (
+                <div className=" flex mt-4" key={index}>
+                  <Input
+                      key={index}
+                      value={o.name}
+                      SetTitle={(e) => handleOptionChange(index, e.target.value)}
+                      w="w-[310px]"
+                      paddigY="py-2"
+                      raduis="rounded-lg"
+                      placeholder="Enter option"
+                  />
+                  <MdDeleteForever size={35} className='mt-[4px] cursor-pointer' onClick={()=>delOption(index)}/>
+                </div>
+            ))}
+          </div>
+          <div className="flex justify-between">
+            <div className="ml-[730px]">
+              <Button
+                  addnewComponent={deleteIt}
+                  paddingY="py-3"
+                  paddingX="px-6"
+                  bgColor="bg-red-700"
+              >
+                Delete Question
+              </Button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
 export default QuestionCards;
-
