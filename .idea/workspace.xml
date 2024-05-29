@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74bfb228-84d1-4def-a423-8d02bead66d5" name="Changes" comment="Handling Errors added" />
+    <list default="true" id="74bfb228-84d1-4def-a423-8d02bead66d5" name="Changes" comment="changed importation">
+      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Molecules/Cards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Molecules/Cards.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Molecules/QuestionCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Molecules/QuestionCards.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Organismes/QuestionLists.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Organismes/QuestionLists.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/setupFireBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/setupFireBase.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,23 +110,8 @@
       <workItem from="1716474943710" duration="3574000" />
       <workItem from="1716643745611" duration="7560000" />
       <workItem from="1716844751585" duration="385000" />
-      <workItem from="1716929371164" duration="1493000" />
-    </task>
-    <task id="LOCAL-00019" summary="Fixing Names">
-      <option name="closed" value="true" />
-      <created>1715291156328</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1715291156328</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Fixing Survey Design">
-      <option name="closed" value="true" />
-      <created>1715296725563</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1715296725563</updated>
+      <workItem from="1716929371164" duration="2101000" />
+      <workItem from="1716939779083" duration="9001000" />
     </task>
     <task id="LOCAL-00021" summary="Creating Footer">
       <option name="closed" value="true" />
@@ -497,7 +489,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716937958951</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Resting the image after submitting">
+      <option name="closed" value="true" />
+      <created>1716938147382</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1716938147382</updated>
+    </task>
+    <task id="LOCAL-00069" summary="changed importation">
+      <option name="closed" value="true" />
+      <created>1716982896992</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1716982896992</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,8 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="User Information State" />
-    <MESSAGE value="update" />
     <MESSAGE value="Delete Btn" />
     <MESSAGE value="About Design Update" />
     <MESSAGE value="dATA" />
@@ -541,6 +547,19 @@
     <MESSAGE value="Fixing Bug" />
     <MESSAGE value="Fixing Create Survey Submit" />
     <MESSAGE value="Handling Errors added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handling Errors added" />
+    <MESSAGE value="Resting the image after submitting" />
+    <MESSAGE value="changed importation" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed importation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Components/Molecules/Cards.jsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
