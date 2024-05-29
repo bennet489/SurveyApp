@@ -1,6 +1,6 @@
 import { Cards } from "../Molecules/Cards.jsx";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../../services/dbConnection.js";
+import db from "../../services/dbConnection.js";
 import React, { useContext, useEffect, useState } from "react";
 import { Loader } from "../Atoms/Loader.jsx";
 import Data_Context from "../../Context/dataContext.js";

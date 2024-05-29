@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { Button } from "../Atoms/Button.jsx";
 import ResponsesCard from "../Organismes/ResponsesCard.jsx";
 import React, { useContext, useEffect, useState } from "react";
-import { db } from "../../services/dbConnection.js";
+import  db  from "../../services/dbConnection.js";
 import { getDoc, doc, setDoc } from "firebase/firestore";
 import Information from "../Organismes/Informations.jsx";
 import { Loader } from "../Atoms/Loader.jsx";
