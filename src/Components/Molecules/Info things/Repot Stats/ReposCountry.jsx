@@ -1,34 +1,33 @@
 import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
-import {TbRectangleFilled} from "react-icons/tb";
+import { TbRectangleFilled } from "react-icons/tb";
 
-function RepsAge({countryRange}) {
-
-
+function ReposCountry({ countryRange }) {
     const chartRef = useRef(null);
+
+    const colorMapping = {
+        "Africa": '#053F5C',
+        "America": '#429EBD',
+        "Asia": '#9FE7F5',
+        "Australia": '#F7AD19',
+        "Europe": '#F27F0C'
+    };
 
     useEffect(() => {
         const ctx = chartRef.current.getContext('2d');
-   if(!countryRange) return
-   const data = Object.values(countryRange)
+        if (!countryRange) return
+        const data = Object.values(countryRange)
+        const labels = Object.keys(countryRange);
+        const backgroundColor = labels.map(country => colorMapping[country]);
+        const borderColor = backgroundColor;
         const myChart = new Chart(ctx, {
             type: 'pie',
             data: {
+                labels: labels,
                 datasets: [{
                     data: data,
-                    backgroundColor: [
-                        '#053F5C',
-                        '#429EBD',
-                        '#9FE7F5',
-                        '#F7AD19',
-                        '#F27F0C',                    ],
-                    borderColor: [
-                        '#053F5C',
-                        '#429EBD',
-                        '#9FE7F5',
-                        '#F7AD19',
-                        '#F27F0C',
-                    ],
+                    backgroundColor: backgroundColor,
+                    borderColor: borderColor,
                     borderWidth: 1
                 }]
             },
@@ -52,23 +51,23 @@ function RepsAge({countryRange}) {
                             className='w-[350px] h-[400px] flex justify-center items-center mx-auto'></canvas>
                     <div className="ml-[166px]">
                         <div className="m-7 flex items-center">
-                            <TbRectangleFilled className="text-white bg-[#053F5C] text-lg p-3 "/>
+                            <TbRectangleFilled className="text-white bg-[#053F5C] text-lg p-3 " />
                             <p className="ml-3 text-xl">Africa</p>
                         </div>
                         <div className="m-7 flex items-center">
-                            <TbRectangleFilled className="text-white bg-[#429EBD] text-lg p-3 "/>
+                            <TbRectangleFilled className="text-white bg-[#429EBD] text-lg p-3 " />
                             <p className="ml-3 text-xl">America</p>
                         </div>
                         <div className="m-7 flex items-center">
-                            <TbRectangleFilled className="text-white bg-[#9FE7F5] text-lg p-3 "/>
+                            <TbRectangleFilled className="text-white bg-[#9FE7F5] text-lg p-3 " />
                             <p className="ml-3 text-xl">Asia</p>
                         </div>
                         <div className="m-7 flex items-center">
-                            <TbRectangleFilled className="text-white bg-[#F7AD19] text-lg p-3 "/>
+                            <TbRectangleFilled className="text-white bg-[#F7AD19] text-lg p-3 " />
                             <p className="ml-3 text-xl">Australia</p>
                         </div>
                         <div className="m-7 flex items-center">
-                            <TbRectangleFilled className="text-white bg-[#F27F0C] text-lg p-3 "/>
+                            <TbRectangleFilled className="text-white bg-[#F27F0C] text-lg p-3 " />
                             <p className="ml-3 text-xl">Europe</p>
                         </div>
                     </div>
@@ -78,4 +77,4 @@ function RepsAge({countryRange}) {
     )
 };
 
-export default RepsAge;
+export default ReposCountry;
