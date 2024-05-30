@@ -1,5 +1,7 @@
 # SurveyApp
 
+<img width="1680" alt="Screenshot 2024-05-30 at 9 18 07 PM" src="https://github.com/bennet489/SurveyApp/assets/122817081/2931078f-dc05-4d40-8c46-d0b218d36755">
+
 SurveyApp is a web application designed to create and manage surveys. Users can create surveys, and participants can fill them out. The app provides detailed reports, including the number of men and women who participated, as well as countries they are from.
 Users have thee ability to delete surveys they made permanently to save storage space and arrange their homepage.
 
